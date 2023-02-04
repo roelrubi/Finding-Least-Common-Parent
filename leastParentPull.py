@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
     updatedSched_df = find_leastCommonParent(hrchy_df, sch_df)
 
-    saveFile_path = file_path.replace('.xlsx', '_Updated.xlsx')
+    saveFile_path = file_path.replace('.xlsx', '_Output.xlsx')
 
     updatedSched_df.to_excel(saveFile_path, sheet_name='Updated Schedule Query', index=False)
     
